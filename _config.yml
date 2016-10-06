@@ -1,0 +1,36 @@
+# Setup
+title: Blog
+tagline: > # this means to ignore newlines until "description:"
+  A place for me to document my technical adventures
+description: > # this means to ignore newlines until "baseurl:"
+  Document, Document, Document
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+paginate: 1
+
+# About/contact
+author:
+  name: Manny Evangelista
+  vocation: Partner Solutions Architect
+  email: mevangel@redhat.com
+  github_username: epe105
+  twitter_username: epe105
+
+# Build settings
+markdown: kramdown
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jemoji
+
+# Exclude
+exclude:
+   - Gemfile
+   - jekyll-cayman-theme.gemspec
+
+# Local server port
+port: 4000
+
+# Local server hostname
+host: 0.0.0.0
